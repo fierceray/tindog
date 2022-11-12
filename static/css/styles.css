@@ -7,21 +7,21 @@ body {
     color: #fff;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+}
 h1 {
-  font-family: 'Montserrat', sans-serif;
   size: 3.5rem;
   line-height: 1.5;
 }
 
 h2 {
-  font-family: "Montserrat";
   color: white;
   font-size: 3rem;
   line-height: 1.5;
 }
 h3 {
   font-weight: bold;
-  font-family: "Montserrat";
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -106,7 +106,6 @@ p{
 
 
 #testimonials {
-
   text-align: center;
   background-color: #ff8484;
 }
@@ -140,4 +139,40 @@ p{
 #pricing {
   padding: 5% 15%;
   text-align: center;
+}
+
+
+@media (max-width: 1028px) {
+    #title {
+    text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* cta section */
+#cta {
+    text-align: center;
+    background-color: #ff8484;
+    padding: 3%;
+    color: #ffffff;
+}
+
+.cta-title {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* footer section */
+#footer {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 3%;
+}
+
+.footer-icon {
+    margin: 2%;
 }
